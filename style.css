@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    font-family: "Roboto", sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 8.4vw;
+}
+
+.block-title{
+    width: 62.85vw;
+    height: 6.46vw;
+    font-family: "Roboto Slab", serif;
+    font-size: 3.82vw;
+    margin-bottom: 6.6vw;
+    margin-left: 2.57vw;
+}
+
+.course-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 37px;
+}
+
+.block img{
+    height: 160px;
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+}
+
+.text-body{
+    margin-top: -4px;
+    height: 168px;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.text-body h3{
+    box-sizing: content-box;
+    padding-top: 11px;
+    margin: 0 14px 0 20px;
+    width: 365px;
+    height: 39px;
+    font-size: 30px;
+}
+
+.author-date{
+    margin: 32px 15px 23px 19px;
+    font-size: 25px;
+    width: 365px;
+    height: 63px;
+}
