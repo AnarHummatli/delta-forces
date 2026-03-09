@@ -63,10 +63,6 @@ section {
     height: 4.38vw;
 }
 
-/* 1440 */
-@media (min-width: 992px) {}
-
-/* 834px */
 @media (min-width: 601px) and (max-width: 991px) {
 
     section {
@@ -118,7 +114,6 @@ section {
     }
 }
 
-/* 375 */
 @media (max-width: 600px) {
 
     section {
