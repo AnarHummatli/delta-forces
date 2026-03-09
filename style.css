@@ -30,34 +30,144 @@ section {
 
 .block {
     flex: 0 0 calc((100% - 2 * 2.57vw) / 3);
-    border-radius: 30px;
+    border-radius: 2.08vw;
     box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.25);
+
 }
 
 .block img {
-    height: 160px;
+    height: 11.11vw;
     width: 100%;
-    border-radius: 30px 30px 0 0;
+    border-radius: 2.08vw 2.08vw 0 0;
 }
 
 .text-body {
-    margin-top: -4px;
-    height: 168px;
-    border-radius: 0 0 30px 30px;
+    margin-top: -0.28vw;
+    height: 11.67vw;
+    border-radius: 0 0 2.08vw 2.08vw;
 }
 
 .text-body h3 {
     box-sizing: content-box;
-    padding-top: 11px;
-    margin: 0 14px 0 20px;
-    width: auto;
-    height: 39px;
-    font-size: 30px;
+    padding-top: 0.76vw;
+    margin: 0 0.97vw 0 1.39vw;
+    width: 25.35vw;
+    height: 2.71vw;
+    font-size: 2.08vw;
 }
 
 .author-date {
-    margin: 32px 15px 23px 19px;
-    font-size: 25px;
-    width: auto;
-    height: 63px;
+    margin: 2.22vw 1.04vw 1.60vw 1.32vw;
+    font-size: 1.74vw;
+    width: 25.35vw;
+    height: 4.38vw;
+}
+
+/* 1440 */
+@media (min-width: 992px) {}
+
+/* 834px */
+@media (min-width: 601px) and (max-width: 991px) {
+
+    section {
+        padding-bottom: 6.31vw;
+    }
+
+    .block-title {
+        width: 62.85vw;
+        height: 6.46vw;
+        font-size: 3.84vw;
+        margin-bottom: 6.59vw;
+        margin-left: 2.57vw;
+    }
+
+    .course-box {
+        flex-flow: row wrap;
+        gap: 2.85vw 2.56vw;
+    }
+
+    .block {
+        box-shadow: 0.58px 0.58px 8.69px 0px rgba(0, 0, 0, 0.25);
+        flex: 0 0 calc((100% - 2 * 2.56vw) / 3);
+        border-radius: 2.09vw;
+    }
+
+    .block img {
+        height: 11.11vw;
+        border-radius: 2.09vw 2.09vw 0 0;
+    }
+
+    .text-body {
+        height: 11.75vw;
+        border-radius: 0 0 2.09vw 2.09vw;
+    }
+
+    .text-body h3 {
+        font-size: 2.03vw;
+        padding-top: 0.76vw;
+        margin: 0 0.99vw 0 1.36vw;
+        width: 25.34vw;
+        height: 2.71vw;
+    }
+
+    .author-date {
+        font-size: 1.68vw;
+        margin: 2.22vw 1.04vw 1.59vw 1.32vw;
+        width: 25.35vw;
+        height: 4.38vw;
+    }
+}
+
+/* 375 */
+@media (max-width: 600px) {
+
+    section {
+        width: 60%;
+        margin: 0 auto;
+        padding-bottom: 12.56vw;
+    }
+
+    .block-title {
+        font-size: 6.93vw;
+        width: 90vw;
+        height: 11.55vw;
+        margin-bottom: 9.49vw;
+        margin-left: -10.47vw;
+    }
+
+    .course-box {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 6.45vw;
+    }
+
+    .block {
+        border-radius: 3.73vw;
+        box-shadow: 0.3px 0.3px 6.7px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .block img {
+        height: 19.87vw;
+        border-radius: 3.73vw 3.73vw 0 0;
+    }
+
+    .text-body {
+        height: 20.91vw;
+        border-radius: 0 0 3.73vw 3.73vw;
+    }
+
+    .text-body h3 {
+        font-size: 3.73vw;
+        padding-top: 1.36vw;
+        margin: 0 1.73vw 0 2.48vw;
+        width: 45.33vw;
+        height: 4.83vw;
+    }
+
+    .author-date {
+        font-size: 3.20vw;
+        margin: 3.97vw 1.87vw 2.85vw 2.29vw;
+        width: 45.33vw;
+        height: 7.81vw;
+    }
 }
