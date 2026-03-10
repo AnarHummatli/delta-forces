@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-family: "Roboto Slab",  sans-serif;
+    font-style: bold;
+    font-size: 55px;
+    padding-bottom: 4.72vw;
+}
+
+.main{
+    height: 100vh;
+    /* max-width: 1440px; */
+    background-color: #efefef;
+    font-size: 20px;
+}
+
+p{
+    font-family: "Roboto", sans-serif; 
+    font-size: 20px;  
+}
+
+
+.cart{
+    background-color: white;
+    border-radius: 30px;
+    height: 31%;
+    width: 64%;
+    
+    /* min-width: 600px; */
+    padding: 2em;
+    /* padding: 100px; */
+    box-shadow: 5px 5px 15px gray;
+    
+}
+
+.profile-cart{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+
+.yf{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1em;
+}
+
+
+.facebook-logo{
+    height: 2.15vw;
+    display: block;
+}
+
+
+.common{
+    padding:  8.47vw;
+}
+
+h2{
+    font-family: "Roboto Slab", serif;
+    font-style: bold;
+    font-size: 30px;
+}
+
+
+
+/* -----------last part\--------- */
+
+
+.last-part{
+    height: 100vh;
+    /* max-width: 1440px; */
+    background-color: #9DC9C8;
+    font-size: 20px;
+}
+
+cto{
+    font-size: 25px;
+}
+
+.rub{
+    font-size: 80px;
+    width: 33.4vw;
+    height: 12.57vw;
+}
+
+.text-part{
+    font-family: "Roboto", sans-serif; 
+    display: flex;
+    gap: 3vw;
+    
+
+}
+
+h6{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif; 
+    font-weight: 400;
+    padding-bottom: 9px;
+
+}
+
+
+.text-1{
+    /* width: 20.42vw; */
+    width: 18vw;
+    font-size: 18px;
+}
+
+.text-2{
+    width: 18vw;
+    font-size: 18px;
+}
+
+
+.common-last{
+    padding:  8.47vw;
+}
+
+
+
+footer{
+    height: 50vh;
+    background-color: black;
+    color: white;
+}
+
+
+.f-elements{
+    display: flex;
+    padding: 3.47vw  8.47vw;
+    justify-content: space-between;
+    
+}
+
+
+.logo-white{
+    width: 8vw;
+    
+}
+
+.social{
+    display: flex;
+    gap: 1.74vw;
+}
+
+
+.social img{
+    width: 2.29vw;
+}
+
+.copyright {
+    margin-top: 10.14vw;
+}
+
+.phone{
+    display: flex;
+    gap: 1.74vw;
+    margin-bottom: 1.74vw;
+
+}
+
+.mail{
+    display: flex;
+    gap: 1.74vw;
+
+
+}
+
+.phone img{
+    width: 1.88vw;
+}
+
+.mail img{
+    width: 1.88vw;
+    height: 1.25vw;
+}
+
+
