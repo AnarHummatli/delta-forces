@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,95 +8,96 @@
 
 .first-step {
     font-family: "Roboto", sans-serif;
+    padding: 2vw 8vw;
+    padding-bottom: 12.014vw;
 }
 
-body {
-    padding-top: 2vh;
-    padding-left: 8vw;
-}
-
-.pharagraf {
+.first-pharagraf {
     display: flex;
     align-items: center;
     flex-direction: row;
-    gap: 2.9vw;
-    margin-top: 7.8vw;
+    gap: 3vw;
+    margin-top: 6.5vw;
 }
 
 .pharagraf-item {
     display: flex;
     align-items: center;
-    gap: 0.5vw;
+    gap: 0.625vw;
 }
 
 .meta-label {
-    font-size: 1.5vw;
+    font-size: 1.389vw;
     width: auto;
     height: auto;
 }
 
 .pharagraf-item:nth-child(1) .pharagraf-image {
-    width: 1.8vw;
-    height: 1.7vw;
+    width: 1.528vw;
+    height: 1.458vw;
 }
 
 .pharagraf-item:nth-child(2) .pharagraf-image {
-    width: 1.8vw;
-    height: 1.8vw;
+    width: 1.528vw;
+    height: 1.528vw;
 }
 
 .pharagraf-item:nth-child(3) .pharagraf-image {
-    width: 1.8vw;
-    height: 1.6vw;
+    width: 1.389vw;
+    height: 1.528vw;
 }
 
 .second-pharagraf {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex-direction: row-reverse;
-    gap: 2vw;
-    margin-top: -5vw;
+    gap: 9.722vw;
+    margin-top: 2vw;
 }
 
 .pharagraf-title {
     font-family: "Roboto Slab", serif;
     line-height: 1.1;
-    font-size: 5.8vw;
-    height: 14vw;
-    width: 87%;
-    box-sizing: content-box;
+    font-size: 5.556vw;
+    height: 13.194vw;
+    width: 43.611vw;
 }
 
 .pharagraf-text {
-    line-height: 1.4;
-    font-size: 1.5vw;
-    width: 40vw;
+    line-height: 1.5;
+    font-size: 1.389vw;
+    width: 28.75vw;
+    height: 4.306vw;
+    margin-top: 0.3vw;
+}
+.image {
+    height: 15vw;
 }
 
 .image img {
-    width: 100%;
-    margin-top: 5vw;
+    width: 21.181vw;
+    height: 26.111vw;
 }
 
 .blue-box {
     display: flex;
     flex-direction: column;
     background-color: #1E4681;
-    border-radius: 0.4vw;
+    border-radius: 0.347vw;
     color: white;
-    margin-left: 25%;
-    margin-top: 4%;
-    width: 33vw;
+    margin-left: 20.5vw;
+    margin-top: 15vw;
+    width: 33.583vw;
+    height: 13.903vw;
 }
 
 .blue-box-text {
     font-family: "Roboto Slab", serif;
-    font-style: normal;
-    font-size: 1.7vw;
-    width: 90%;
-    margin-top: 5%;
-    margin-left: 3.1vw;
+    font-size: 1.736vw;
+    width: 29.903vw;
+    height: 7.847vw;
+    margin-top: 1.34vw;
+    margin-left: 1.806vw;
 }
 
 .blue-box-author {
@@ -102,52 +105,51 @@ body {
     align-self: flex-end;
     font-family: "Roboto", sans-serif;
     font-weight: 375;
-    font-style: normal;
     text-align: right;
     font-size: 1.5vw;
-    width: 70%;
-    margin-right: 1.1vw;
-    margin-top: 1%;
-    padding-bottom: 5%;
+    width: 19.479vw;
+    height: 3.167vw;
+    margin-right: 1.285vw;
+    margin-top: 1.7vw;
 }
 
 @media (max-width: 600px) {
     .header img {
-        width: 12.5vw;
-        height: 7.4vw;
+        width: 13.92vw;
+        height: 8.2vw;
     }
 
-    .pharagraf {
-        gap: 2.8vw;
-        margin-top: 8vw;
+    .first-pharagraf {
+        gap: 3.107vw;
+        margin-top: 8.8vw;
     }
 
     .pharagraf-item {
-        gap: 0.9vw;
+        gap: 1.067vw;
     }
 
     .meta-label {
-        font-size: 2.4vw;
+        font-size: 2.667vw;
     }
 
     .pharagraf-item:nth-child(1) .pharagraf-image {
-        width: 2.5vw;
-        height: 2.4vw;
+        width: 2.733vw;
+        height: 2.613vw;
     }
 
     .pharagraf-item:nth-child(2) .pharagraf-image {
-        width: 2.5vw;
-        height: 2.5vw;
+        width: 2.733vw;
+        height: 2.733vw;
     }
 
     .pharagraf-item:nth-child(3) .pharagraf-image {
-        width: 2.2vw;
-        height: 2.5vw;
+        width: 2.48vw;
+        height: 2.733vw;
     }
 
     .second-pharagraf {
         display: block;
-        margin-top: 4vw;
+        margin-top: 3vw;
     }
 
     .pharagraf-title {
@@ -157,61 +159,63 @@ body {
     }
 
     .pharagraf-text {
-        width: 51vw;
-        height: 6.9vw;
-        font-size: 2.4vw;
-        margin-top: 0.2vw;
+        width: 78.027vw;
+        height: 7.733vw;
+        font-size: 2.667vw;
+        margin-top: 0.8vw;
     }
 
     .image {
         display: flex;
         justify-content: flex-end;
-        height: 9.6vw;
+        height: 46.693vw;
+        margin-top: -5vw;
+        margin-right: 1.7vw;
     }
 
     .image img {
-        width: 34vw;
-        height: 42vw;
+        width: 37.787vw;
+        height: 46.693vw;
     }
 
     .blue-box {
-        width: 51.6vw;
-        height: 20.4vw;
+        width: 60.107vw;
+        height: 24.853vw;
         margin-left: 0;
-        margin-top: 4.8vw;
-        border-radius: 0.8vw;
+        margin-top: 13vw;
+        border-radius: 0.621vw;
     }
 
     .blue-box-text {
-        font-size: 2.6vw;
-        width: 48.1vw;
-        height: 12.6vw;
-        margin-top: 2.2vw;
-        margin-left: 2.9vw;
+        font-size: 2.933vw;
+        width: 53.493vw;
+        height: 14.04vw;
+        margin-top: 2.4vw;
+        margin-left: 3.227vw;
     }
 
     .blue-box-author {
-        font-size: 2.4vw;
-        width: 31.3vw;
-        height: 5.1vw;
-        margin-right: 1.8vw;
-        margin-top: 0;
+        font-size: 2.667vw;
+        width: 53.493vw;
+        height: 14.04vw;
+        margin-right: 2.027vw;
+        margin-top: 2.2vw;
     }
 }
 
-@media (min-width: 600px) and (max-width: 991px) {
+@media (min-width: 601px) and (max-width: 990px) {
     .header img {
-        width: 7.8vw;
-        height: 4.6vw;
+        width: 7.782vw;
+        height: 4.58vw;
     }
 
-    .pharagraf {
-        gap: 1.7vw;
-        margin-top: 5.8vw;
+    .first-pharagraf {
+        gap: 1.736vw;
+        margin-top: 5vw;
     }
 
     .pharagraf-item {
-        gap: 0.6vw;
+        gap: 0.552vw;
     }
 
     .meta-label {
@@ -219,22 +223,22 @@ body {
     }
 
     .pharagraf-item:nth-child(1) .pharagraf-image {
-        width: 1.5vw;
-        height: 1.5vw;
+        width: 1.528vw;
+        height: 1.458vw;
     }
 
     .pharagraf-item:nth-child(2) .pharagraf-image {
-        width: 1.5vw;
-        height: 1.5vw;
+        width: 1.528vw;
+        height: 1.528vw;
     }
 
     .pharagraf-item:nth-child(3) .pharagraf-image {
-        width: 1.4vw;
-        height: 1.5vw;
+        width: 1.388vw;
+        height: 1.528vw;
     }
 
     .second-pharagraf {
-        gap: 9.7vw;
+        gap: 9.2vw;
         margin-top: -9.6vw;
     }
 
@@ -249,9 +253,13 @@ body {
         height: 4.3vw;
         font-size: 1.4vw;
     }
-    
+
     .content {
         margin-top: 10.9vw;
+    }
+
+    .image {
+        height: 17vw;
     }
 
     .image img {
@@ -260,9 +268,10 @@ body {
     }
 
     .blue-box {
-        width: 32.1vw;
-        height: 13vw;
-        margin-left: 20.4vw;
+        width: 33.585vw;
+        height: 13.885vw;
+        margin-left: 19.5vw;
+        margin-top: 11vw;
         border-radius: 0.5vw;
     }
 
@@ -279,7 +288,7 @@ body {
         width: 19.5vw;
         height: 3.2vw;
         margin-right: 1.1vw;
-        margin-top: 0.5vw;
+        margin-top: 1.3vw;
     }
 
 }
