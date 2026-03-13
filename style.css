@@ -113,6 +113,7 @@
     margin-top: 1.7vw;
 }
 
+
 @media (max-width: 600px) {
     .header img {
         width: 13.92vw;
@@ -201,6 +202,7 @@
         margin-top: 2.2vw;
     }
 }
+
 
 @media (min-width: 601px) and (max-width: 990px) {
     .header img {
@@ -291,6 +293,7 @@
     }
 }
 
+
 /* ---------------------------------------------------RUHIN--------------------------------------------------------- */
 
 .second-step {
@@ -363,6 +366,7 @@
     height: 15.208vw;
     margin-right: 2.639vw;
 }
+
 
 @media (min-width: 601px) and (max-width: 990px) {
     .Course-description {
@@ -483,6 +487,7 @@
     }
 }
 
+
 /* <!-- -------------------------Aysun------------------------ --> */
 ul {
     list-style-position: outside
@@ -594,6 +599,7 @@ ul {
     margin-bottom: 17.222vw;
 }
 
+
 @media(min-width: 601px) and (max-width: 991px) {
 
     .two {
@@ -701,6 +707,7 @@ ul {
         margin-bottom: 17.222vw;
     }
 }
+
 
 @media(max-width: 600px) {
     .two {
@@ -817,6 +824,7 @@ ul {
     }
 }
 
+
 /* <!-- -------------------------Anar------------------------ --> */
 
 .fourth-step {
@@ -876,6 +884,7 @@ ul {
     height: 4.38vw;
 }
 
+
 @media (min-width: 601px) and (max-width: 991px) {
 
     section {
@@ -926,6 +935,7 @@ ul {
         height: 4.38vw;
     }
 }
+
 
 @media (max-width: 600px) {
 
@@ -978,4 +988,437 @@ ul {
         width: 45.33vw;
         height: 7.81vw;
     }
+}
+
+
+/* <!-- -------------------------Elcin------------------------ --> */
+
+
+.text-titles-of-last {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 3.82vw;
+    padding-bottom: 4.72vw;
+}
+
+.profile-main {
+    height: 100%;
+    /* max-width: 1440px; */
+    background-color: #efefef;
+    font-size: 1.39vw;
+}
+
+.about-profile {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.39vw;
+}
+
+
+.cart {
+    background-color: white;
+    border-radius: 2.08vw;
+    height: 31%;
+    width: 64%;
+    padding: 2em;
+    box-shadow: 0.35vw 0.35vw 1.04vw gray;
+
+}
+
+.profile-cart {
+    display: flex;
+    align-items: center;
+
+}
+
+.yf {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1em;
+}
+
+
+.facebook-logo {
+    height: 2.15vw;
+    display: block;
+}
+
+
+.common {
+    padding: 8.47vw;
+}
+
+.ekaterina {
+    font-family: "Roboto Slab", serif;
+    font-size: 2.08vw;
+}
+
+
+
+.profile img {
+    width: 13.19vw;
+}
+
+
+
+/* -----------last part\--------- */
+
+
+.last-part {
+    height: 100%;
+    /* max-width: 1440px; */
+    background-color: #9DC9C8;
+    font-size: 1.39vw;
+    font-family: "Roboto", sans-serif;
+}
+
+.cto {
+    font-size: 1.74vw;
+
+}
+
+.rub {
+    font-size: 5.56vw;
+    width: 34.4vw;
+    height: 12.57vw;
+}
+
+.text-part-last {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    gap: 3vw;
+
+
+}
+
+.h6-last {
+    font-size: 1.74vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    padding-bottom: 0.625vw;
+
+}
+
+
+.text-1-of-last {
+    width: 20.42vw;
+    font-size: 1.25vw;
+}
+
+.text-2-of-last {
+    width: 20.42vw;
+    font-size: 1.25vw;
+}
+
+
+.nowrap {
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+
+.common-last {
+    padding: 8.47vw;
+}
+
+
+
+footer {
+    font-family: "Roboto", sans-serif;
+    height: 50vh;
+    background-color: black;
+    color: white;
+}
+
+
+.f-elements {
+    display: flex;
+    padding: 3.47vw 8.47vw;
+    justify-content: space-between;
+
+}
+
+
+.logo-white {
+    width: 8vw;
+
+}
+
+.social {
+    display: flex;
+    gap: 1.74vw;
+    margin-top: 2.083vw;
+}
+
+
+.social img {
+    width: 2.29vw;
+}
+
+.copyright {
+    margin-top: 5.87vw;
+    padding: 3.47vw 8.47vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.phone {
+    display: flex;
+    gap: 1.74vw;
+    margin-bottom: 1.74vw;
+    align-items: center;
+
+}
+
+.mail {
+    display: flex;
+    gap: 1.74vw;
+    align-items: center;
+
+
+}
+
+.phone img {
+    width: 1.88vw;
+}
+
+.mail img {
+    width: 1.88vw;
+    height: 1.25vw;
+}
+
+
+footer {
+    height: 50%;
+
+}
+
+
+.right-part-footer p {
+    font-size: 1.736vw;
+}
+
+
+
+
+
+/* ------responsive part -------- */
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 991px) {
+
+    .text-titles-of-last {
+        font-size: 3.84vw;
+    }
+
+
+
+    .cart {
+        height: 54.9%;
+    }
+
+
+    .profile img {
+        width: 13.2vw;
+    }
+
+
+    .about-profile {
+        font-size: 1.44vw;
+    }
+
+
+    .ekaterina {
+        font-size: 2.04vw;
+    }
+
+
+    .cto {
+        font-size: 1.68vw;
+    }
+
+
+    .rub {
+        font-size: 5.52vw;
+    }
+
+    .h6-last {
+        font-size: 1.68vw;
+
+
+    }
+
+
+    .last-part {
+        display: flex;
+        align-items: center;
+    }
+
+    .text-1-of-last {
+        font-size: 1.2vw;
+    }
+
+    .text-2-of-last {
+        font-size: 1.2vw;
+    }
+
+
+
+
+    .profile-main {
+        height: 100%;
+    }
+
+    footer {
+        height: 50%;
+
+    }
+
+    .right-part-footer p {
+        font-size: 2.329vw;
+    }
+
+
+    .copyright p {
+        font-size: 1.111vw;
+    }
+
+
+
+    .social img {
+        width: 2.188vw;
+    }
+
+
+    .social {
+        gap: 1.735vw;
+
+    }
+
+}
+
+
+/* ------------phone---------- */
+
+@media (max-width: 600px) {
+
+
+    .text-titles-of-last {
+        font-size: 6.91vw;
+
+    }
+
+    .text-title-1 {
+        width: 68.35vw;
+    }
+
+    .text-title-2 {
+        width: 59.57vw;
+    }
+
+
+    .facebook-logo {
+        height: 4.57vw;
+    }
+
+    .cart {
+        height: 54.9%;
+        width: 100%;
+    }
+
+
+    .profile img {
+        width: 21.28vw;
+    }
+
+
+    .about-profile {
+        font-size: 2.66vw;
+    }
+
+
+    .ekaterina {
+        font-size: 3.72vw;
+    }
+
+
+    .cto {
+        font-size: 3.2vw;
+    }
+
+
+    .rub {
+        font-size: 7.84vw;
+    }
+
+    .h6-last {
+        font-size: 3.2vw;
+
+
+    }
+
+
+    .last-part {
+        display: flex;
+        align-items: center;
+    }
+
+    .text-1-of-last {
+        width: 36.7vw;
+        font-size: 2.66vw;
+    }
+
+    .text-2-of-last {
+        width: 36.7vw;
+        font-size: 2.66vw;
+    }
+
+
+
+
+
+    .profile-main {
+        height: 100%;
+    }
+
+
+
+
+
+    footer {
+        height: 50%;
+
+    }
+
+
+    .f-elements {
+        display: flex;
+        flex-direction: column;
+        gap: 3.4vh;
+    }
+
+
+
+    .right-part-footer p {
+        font-size: 3.2vw;
+    }
+
+
+    .phone img {
+        width: 3.355vw;
+    }
+
+    .mail img {
+        width: 3.355vw;
+        height: 2.237vw;
+    }
+
+    .copyright p {
+        font-size: 2.667vw;
+    }
+
+
+
+
 }
