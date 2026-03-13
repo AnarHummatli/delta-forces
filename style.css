@@ -8,21 +8,21 @@
 }
 
 
-h1{
+.text-titles-of-last{
     font-family: "Roboto Slab",  sans-serif;
     font-style: bold;
     font-size: 3.82vw;
     padding-bottom: 4.72vw;
 }
 
-.main{
+.profile-main{
     height: 100%;
     /* max-width: 1440px; */
     background-color: #efefef;
     font-size: 1.39vw;
 }
 
-p{
+.about-profile{
     font-family: "Roboto", sans-serif; 
     font-size: 1.39vw;  
 }
@@ -65,7 +65,7 @@ p{
     padding:  8.47vw;
 }
 
-h2{
+.ekaterina{
     font-family: "Roboto Slab", serif;
     font-style: bold;
     font-size: 2.08vw;
@@ -87,10 +87,12 @@ h2{
     /* max-width: 1440px; */
     background-color: #9DC9C8;
     font-size: 1.39vw;
+    font-family: "Roboto", sans-serif; 
 }
 
 .cto{
     font-size: 1.74vw;
+    
 }
 
 .rub{
@@ -99,7 +101,7 @@ h2{
     height: 12.57vw;
 }
 
-.text-part{
+.text-part-last{
     font-family: "Roboto", sans-serif; 
     display: flex;
     gap: 3vw;
@@ -107,7 +109,7 @@ h2{
 
 }
 
-h6{
+.h6-last{
     font-size: 1.74vw;
     font-family: "Roboto", sans-serif; 
     font-weight: 400;
@@ -116,13 +118,13 @@ h6{
 }
 
 
-.text-1{
+.text-1-of-last{
     /* width: 20.42vw; */
     width: 18vw;
     font-size: 1.25vw;
 }
 
-.text-2{
+.text-2-of-last{
     width: 18vw;
     font-size: 1.25vw;
 }
@@ -135,6 +137,7 @@ h6{
 
 
 footer{
+    font-family: "Roboto", sans-serif; 
     height: 50vh;
     background-color: black;
     color: white;
@@ -157,6 +160,7 @@ footer{
 .social{
     display: flex;
     gap: 1.74vw;
+    margin-top: 2.083vw;
 }
 
 
@@ -176,12 +180,14 @@ footer{
     display: flex;
     gap: 1.74vw;
     margin-bottom: 1.74vw;
+    align-items: center;
 
 }
 
 .mail{
     display: flex;
     gap: 1.74vw;
+    align-items: center;
 
 
 }
@@ -202,6 +208,10 @@ footer{
 }
 
 
+.right-part-footer p{
+    font-size: 1.736vw;
+}
+
 
 
 /* responsive part  */
@@ -212,7 +222,7 @@ footer{
 
 @media (min-width: 601px) and (max-width: 991px) {
 
-h1{
+.text-titles-of-last{
     font-size: 3.84vw;
 }
 
@@ -228,12 +238,12 @@ h1{
 }
 
 
-p{
+.about-profile{
     font-size: 1.44vw;
 }
 
 
-h2{
+.ekaterina{
     font-size: 2.04vw;
 }
 
@@ -247,7 +257,7 @@ h2{
     font-size: 5.52vw;
 }
 
-h6{
+.h6-last{
     font-size: 1.68vw;
     
 
@@ -259,18 +269,18 @@ h6{
     align-items: center;
 }
 
-.text-1{
+.text-1-of-last{
     font-size: 1.2vw;
 }
 
-.text-2{
+.text-2-of-last{
     font-size: 1.2vw;
 }
 
 
 
 
-.main{
+.profile-main{
         height: 100%;
     }
 
@@ -279,7 +289,26 @@ footer{
 
 }
 
+.right-part-footer p{
+    font-size: 2.329vw;
+}
 
+
+.copyright p{
+    font-size: 1.111vw;
+}
+
+
+
+.social img{
+    width: 2.188vw;
+}
+
+
+.social{
+    gap: 1.735vw;
+    
+}
 
 }
 
@@ -299,7 +328,7 @@ footer{
 @media (min-width: 375px) and (max-width: 600px) {
 
 
-  h1{
+  .text-titles-of-last{
     font-size: 6.91vw;
     
 }
@@ -327,12 +356,12 @@ footer{
 }
 
 
-p{
+.about-profile{
     font-size: 2.66vw;
 }
 
 
-h2{
+.ekaterina{
     font-size: 3.72vw;
 }
 
@@ -346,7 +375,7 @@ h2{
     font-size: 7.84vw;
 }
 
-h6{
+.h6-last{
     font-size: 3.2vw;
     
 
@@ -358,12 +387,12 @@ h6{
     align-items: center;
 }
 
-.text-1{
+.text-1-of-last{
     width: 36.7vw;
     font-size: 2.66vw;
 }
 
-.text-2{
+.text-2-of-last{
     width: 36.7vw;
     font-size: 2.66vw;
 }
@@ -372,7 +401,7 @@ h6{
 
 
 
-.main{
+.profile-main{
         height: 100%;
     }
 
@@ -391,5 +420,32 @@ footer{
     flex-direction: column;
     gap: 3.4vh;
 }
+
+
+
+.right-part-footer p{
+    font-size: 3.2vw;
+}
+
+
+
+
+
+
+.phone img{
+    width: 3.355vw;
+}
+
+.mail img{
+    width: 3.355vw;
+    height: 2.237vw;
+}
+
+.copyright p{
+    font-size: 2.667vw;
+}
+
+
+
 
 }
