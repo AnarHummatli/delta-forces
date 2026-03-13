@@ -463,7 +463,7 @@
         justify-content: flex-start;
         flex-wrap: wrap;
         gap: 9vw;
-        margin-top: 6.5w;
+        margin-top: 6.5vw;
         width: 70vw;
         height: 28.8vw;
     }
@@ -554,7 +554,7 @@ ul {
 
 .item6 {
     font-family: "Lato", sans-serif;
-    width: 10.417vwx;
+    width: 10.417vw;
     height: 2.708vw;
     margin-top: 12.639vw;
     margin-left: 7.847vw;
@@ -593,7 +593,7 @@ ul {
     margin-left: 8.472vw;
     font-size: 1.667vw;
     font-family: "Roboto", sans-serif;
-    font-weight: 27.778vw;
+    font-weight: 400;
     margin-top: 1.458vw;
     line-height: 150%;
     margin-bottom: 17.222vw;
@@ -613,7 +613,7 @@ ul {
         height: 6.458vw;
         margin-left: 8.403vw;
         font-size: 3.837vw;
-        font-weight: 83.933vw;
+        font-weight: 700;
         line-height: 101%;
     }
 
@@ -634,7 +634,7 @@ ul {
         width: 18.345vw;
         height: 2.638vw;
         font-weight: 400;
-        font-size: 1.319vww;
+        font-size: 1.319vw;
         margin-left: 8.513vw;
         line-height: 130%;
         margin-top: 0.1vw;
@@ -887,7 +887,7 @@ ul {
 
 @media (min-width: 601px) and (max-width: 991px) {
 
-    section {
+    .fourth-step {
         padding-bottom: 6.31vw;
     }
 
@@ -939,7 +939,7 @@ ul {
 
 @media (max-width: 600px) {
 
-    section {
+    .fourth-step {
         width: 60%;
         margin: 0 auto;
         padding-bottom: 12.56vw;
