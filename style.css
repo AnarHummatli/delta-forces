@@ -1,243 +1,195 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+.second-step {
+    margin: auto;
+    padding: 0 8vw;
+    padding-bottom: 11.25vw;
+    font-family: "Roboto", sans-serif;
 }
 
-body {
-    background: white;
+.Course-description {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 11.389vw;
 }
 
-.wrapper {
-    width: 100%;
-}
-
-.main-bottom1 {
-    position: relative;
-    width: 100%;
-}
-
-.hd {
-    position: absolute;
-    left: 0;
+.first-part-pharagraf h1 {
+    font-size: 3.819vw;
+    margin-bottom: 1.25vw;
+    width: 25.347vw;
+    height: 6.458vw;
     font-family: "Roboto Slab", serif;
-    font-weight: bold;
 }
 
-.text1, .text2 {
-    position: absolute;
-    left: 0;
-    font-family: "Roboto", sans-serif;
-    line-height: 150%;
+.second-part-pharagraf {
+    width: 45.972vw;
+    height: 25.972vw;
 }
 
-.img1, .img2 {
-    position: absolute;
-    left: 0;
+#second-part-pharagraf-text {
+    margin-bottom: 2.9vw;
 }
 
-.block1, .block2 {
-    position: absolute;
-    left: 0;
+.second-part-pharagraf p {
+    line-height: 1.5;
+    font-size: 1.667vw;
 }
 
-.box-h {
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
+.first-part-pharagraf-image {
+    height: 14.9vw;
 }
 
-.box-d {
-    font-family: "Roboto", sans-serif;
-    line-height: 130%;
+.first-part-pharagraf-image img {
+    width: 25.417vw;
 }
 
-    @media (min-width: 601px) and (max-width: 991px) {
+.second-part-content {
+    display: flex;
+    align-items: center;
+    gap: 6.528vw;
+    margin-top: 6.528vw;
+}
 
-      .main-bottom1 {
-        height: 75vw;
-        margin-left: 8.39vw;
+.parameters {
+    width: 10.417vw;
+    height: 2.708vw;
+}
+
+.parameters h3 {
+    font-size: 1.736vw;
+    margin-bottom: 0.069vw;
+}
+
+.parameters p {
+    font-size: 1.25vw;
+}
+
+.parameters-image img {
+    width: 16.111vw;
+    height: 15.208vw;
+    margin-right: 2.639vw;
+}
+
+@media (min-width: 601px) and (max-width: 990px) {
+    .Course-description {
+        gap: 11.391vw;
     }
 
-      .hd {
-        font-size: 3.84vw;
-        top: 0;
+    .first-part-pharagraf h1 {
+        font-size: 3.837vw;
+        margin-bottom: 1.247vw;
+        width: 25.348vw;
+        height: 6.463vw;
     }
 
-      .text1 {
-        font-size: 1.68vw;
-        width: 45.97vw;
-        top: 7.7vw;
-    }
-      .text2 {
-        font-size: 1.68vw;
-        width: 45.97vw;
-        top: 20.7vw;
+    .second-part-pharagraf {
+        width: 45.971vw;
+        height: 25.971vw;
     }
 
-      .img1 {
+    #second-part-pharagraf-text {
+        margin-bottom: 2.5vw;
+    }
+
+    .second-part-pharagraf p {
+        line-height: 1.5;
+        font-size: 1.679vw;
+    }
+
+    .first-part-pharagraf-image img {
         width: 25.42vw;
-        height: 23.89vw;
-        left: 57.3vw;
-        top: 9.3vw;
     }
 
-      .img2 {
-        width: 16.11vw;
-        height: 15.21vw;
-        top: 43.4vw;
-        display: block;
+    .second-part-content {
+        gap: 6vw;
+        margin-top: 10vw;
     }
 
-      .block1 {
-        top: 49.3vw;
-        left: 25.1vw;
-        display: flex;
+    .parameters {
+        width: 11.2vw;
+        height: 2.71vw;
     }
 
-      .block1-right {
-        margin-left: 4.2vw;
+    .parameters h3 {
+        font-size: 1.799vw;
+        margin-bottom: 0.2vw;
     }
 
-      .block2 {
-        top: 49.3vw;
-        left: 54.5vw;
+    .parameters p {
+        font-size: 1.319vw;
     }
 
-      .box-h {
-        font-size: 1.8vw;
+    .parameters-image img {
+        width: 16.115vw;
+        margin-right: 2.638vw;
     }
-
-      .box-d {
-        font-size: 1.32vw;
-        width: 10.7vw;
-    }
-
 }
 
-    @media  (min-width: 992px) and (max-width:1440px) {
-        
-        .main-bottom1 {
-            height: 60vw;
-            margin-left: 8.4vw;
-        }
-
-        .hd {
-            font-size: 3.82vw;
-            top: 0;
-        }
-
-        .text1 {
-            font-size: 1.67vw;
-            width: 45.97vw;
-            top: 7.5vw;
-
-        }
-
-        .text2 {
-            font-size: 1.67vw;
-            width: 45.97vw;
-            top: 20.5vw;
-        }
-
-        .img1 {
-            width: 23.33vw;
-            height: 23.89vw;
-            left: 58vw;
-            top: 9.3vw;
-
-        }
-
-        .img2 {
-            width: 16.11vw;
-            height: 15.21vw;
-            top: 40vw;
-            display: block;
-
-        }
-
-        .block1 {
-            top: 45vw;
-            left: 23.6vw;
-            display: flex;
-        }
-
-        .block1-right {
-            margin-left: 6.4vw;
-
-        }
-
-        .block2 {
-            top: 45vw;
-            left: 56vw;
-
-        }
-
-        .box-h {
-            font-size: 1.74vw; 
-
-        }
-       
-        .box-d {
-            font-size: 1.25vw;
-            width: 10.4vw;
-
-        }
+@media (max-width: 600px) {
+    .Course-description {
+        flex-direction: column;
+        gap: 14.933vw;
     }
 
-    @media(max-width: 600px) {
+    .first-part-pharagraf h1 {
+        font-size: 6.933vw;
+        margin-bottom: 2.24vw;
+        width: 45.333vw;
+        height: 11.547vw;
+    }
+
+    .second-part-pharagraf {
+        width: 82.267vw;
+        height: 46.48vw;
+    }
+
+     #second-part-pharagraf-text {
+        margin-bottom: 5.5vw;
+    }
+
+    .second-part-pharagraf p {
+        line-height: 1.5;
+        font-size: 3.2vw;
+    }
     
-    .main-bottom1 {
+    .first-part-pharagraf-image {
+        height: 45.48vw;
+    }   
 
-        height: 170vw;
-        margin-left: 9.3vw;
-    }
-
-      .hd {
-        font-size: 6.93vw;
-        top: 0;
-    }
-
-      .text1 {
-        font-size: 3.2vw;
-        width: 82.4vw;
-        top: 13.5vw;
-    }
-
-      .text2 {
-        font-size: 3.2vw;
-        width: 82.4vw;
-        top: 39vw;
-    }
-
-      .img1 {
+    .first-part-pharagraf-image img {
         width: 45.48vw;
-        height: 42.74vw;
-        left: 17vw;
-        top: 75vw;
     }
 
-      .img2 {
+    .second-part-content {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 9vw;
+        margin-top: 6.5w;
+        width: 70vw;
+        height: 28.8vw;
+    }
+
+    .parameters {
+        width: 22.6vw;
+        height: 5.067vw;
+    }
+
+    .parameters h3 {
+        font-size: 3.2vw;
+        margin-bottom: 1vw;
+    }
+
+    .parameters p {
+        font-size: 2.667vw;
+    }
+
+    .parameters-image {
         display: none;
     }
-
-      .block1 {
-        top: 130vw;
-        display: flex;
-        gap: 5.3vw;
-    }
-
-      .block2 {
-        top: 148vw;
-    }
-
-      .box-h {
-        font-size: 3.2vw;
-    }
-    
-      .box-d {
-        font-size: 2.67vw;
-        width: 38vw;
-    }
 }
+
+
+
+
