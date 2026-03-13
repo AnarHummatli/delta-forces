@@ -10,7 +10,6 @@
 
 .text-titles-of-last{
     font-family: "Roboto Slab",  sans-serif;
-    font-style: bold;
     font-size: 3.82vw;
     padding-bottom: 4.72vw;
 }
@@ -33,10 +32,7 @@
     border-radius: 2.08vw;
     height: 31%;
     width: 64%;
-    
-    /* min-width: 600px; */
     padding: 2em;
-    /* padding: 100px; */
     box-shadow: 0.35vw 0.35vw 1.04vw gray;
     
 }
@@ -44,7 +40,6 @@
 .profile-cart{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
 
 }
 
@@ -67,7 +62,6 @@
 
 .ekaterina{
     font-family: "Roboto Slab", serif;
-    font-style: bold;
     font-size: 2.08vw;
 }
 
@@ -119,16 +113,20 @@
 
 
 .text-1-of-last{
-    /* width: 20.42vw; */
-    width: 18vw;
+    width: 20.42vw;
     font-size: 1.25vw;
 }
 
 .text-2-of-last{
-    width: 18vw;
+    width: 20.42vw;
     font-size: 1.25vw;
-}
+    }
 
+
+.nowrap{
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
 
 .common-last{
     padding:  8.47vw;
@@ -214,7 +212,9 @@ footer{
 
 
 
-/* responsive part  */
+
+
+/* ------responsive part -------- */
 
 
 
